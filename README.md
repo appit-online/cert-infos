@@ -39,6 +39,39 @@ import * as certInfo from 'cert-infos';
 const {certificate, certificateOriginal} = certInfo.getRSACertInfoPem(pemCertPath);
 console.log('The short certificate information:');
 console.log(certificate);
+/*
+{
+        "issuer": {
+            "distinguishedName": "CN=Test CA,OU=CA,O=Test GmbH,C=DE",
+            "components": {
+                "email": "",
+                "commonName": "Test CA",
+                "organizationalUnit": "CA",
+                "organizationName": "Test GmbH",
+                "localityName": "",
+                "stateName": "",
+                "country": "DE"
+            }
+        },
+        "subject": {
+            "distinguishedName": "CN=Test1 CA,OU=CA,O=Test1 GmbH,C=DE",
+            "components": {
+                "email": "",
+                "commonName": "Test CA",
+                "organizationalUnit": "CA",
+                "organizationName": "Test GmbH",
+                "localityName": "",
+                "stateName": "",
+                "country": "DE"
+            }
+        },
+        "serialNumber": "01",
+        "validFrom": "2019-01-16T11:55:00.000Z",
+        "validTo": "2028-01-11T12:15:00.000Z",
+        "version": 3
+    }
+*/
+
 
 console.log('The unconverted certificate data:');
 console.log(certificateOriginal)
