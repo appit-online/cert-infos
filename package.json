@@ -1,6 +1,6 @@
 {
   "name": "cert-infos",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Get certificate information from a rsa pem/crt/der file",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -45,9 +45,9 @@
     "lib/**/*"
   ],
   "bugs": {
-    "url": "https://github.com/appit-online/p12-to-pem/issues"
+    "url": "https://github.com/appit-online/cert-infos/issues"
   },
-  "homepage": "https://github.com/appit-online/p12-to-pem#readme",
+  "homepage": "https://github.com/appit-online/cert-infos#readme",
   "devDependencies": {
     "@types/jest": "^25.2.1",
     "@types/node": "^13.11.0",
