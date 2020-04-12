@@ -3,8 +3,13 @@
 Receive RSA certificate information (distinguishedName, commonName, validFrom, validTo,...) from a pem or der encoded file.
 
 
+##Publications:
 
-**Table of contents:**
+https://blog.appit-online.de/publications/
+
+
+
+##Table of contents:
 
 
 * [Quickstart](#quickstart)
